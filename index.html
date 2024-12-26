@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Christmas Greeting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes bounceIn {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        .bounce-in {
+            animation: bounceIn 2s;
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        .zoom-in {
+            animation: zoomIn 2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-gray-900 to-black text-white flex flex-col items-center justify-center min-h-screen font-roboto">
+    <div class="text-center p-6 bg-gray-800 rounded-lg shadow-lg fade-in">
+        <img alt="Santa Claus illustration" class="mx-auto mb-4 rounded-full border-4 border-red-500 bounce-in" height="100" src="https://storage.googleapis.com/a1aa/image/OrrCXYNy0Bb3Ids5Vxk41F5FeiKe7CpifHB4V0411BZNQY9nA.jpg" width="100"/>
+        <h1 class="text-3xl font-bold text-red-500 mb-2 fade-in">
+            <span class="mr-2">🎄</span>
+            Merry Christmas, Priya Mam!
+            <span class="ml-2">🎄</span>
+        </h1>
+        <p class="mb-4 text-lg fade-in">Dear Priya Mam,</p>
+        <p class="mb-4 text-base leading-relaxed fade-in">
+            On behalf of the entire team, we would like to extend our warmest wishes to you for a very Merry Christmas and a Happy New Year! May this festive season be filled with joy, peace, and cherished moments with your loved ones.
+        </p>
+        <a class="text-red-500 mb-4 block text-lg underline fade-in" href="https://www.storytel.com">https://www.storytel.com</a>
+        <p class="mb-2 text-lg fade-in">
+            <span class="font-bold">Username:</span> priyamam147@gmail.com
+        </p>
+        <p class="text-lg fade-in">
+            <span class="font-bold">Password:</span> Priya@147
+        </p>
+        <img alt="Gift box illustration" class="mx-auto mt-4 zoom-in" height="50" src="https://i.ibb.co/Wp81SS6/rm.png" width="50"/>
+    </div>
+</body>
+</html>
